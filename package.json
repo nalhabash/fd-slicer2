@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --check-leaks",
-    "coverage": "nyc mocha -- --reporter dot --check-leaks test/test.js"
+    "test:coverage": "nyc mocha -- --reporter dot --check-leaks test/test.js"
   },
   "author": "Andrew Kelley <superjoe30@gmail.com>",
   "license": "MIT",
