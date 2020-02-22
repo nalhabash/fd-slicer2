@@ -1,6 +1,6 @@
 # fd-slicer
 
-[![Build Status](https://travis-ci.org/andrewrk/node-fd-slicer.svg?branch=master)](https://travis-ci.org/andrewrk/node-fd-slicer)
+[![Build Status](https://travis-ci.com/nalhabash/node-fd-slicer.svg?branch=master)](https://travis-ci.com/nalhabash/node-fd-slicer)
 
 Safe `fs.ReadStream` and `fs.WriteStream` using the same fd.
 
