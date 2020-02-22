@@ -1,13 +1,13 @@
 {
-  "name": "fd-slicer",
-  "version": "1.1.0",
-  "description": "safely create multiple ReadStream or WriteStream objects from the same file descriptor",
+  "name": "fd-slicer2",
+  "version": "1.1.1",
+  "description": "Fork of fd-slicer that fixes the DEP00005 deprecation error",
   "main": "index.js",
   "scripts": {
     "test": "mocha --check-leaks",
     "test:coverage": "nyc mocha -- --reporter dot --check-leaks test/test.js"
   },
-  "author": "Andrew Kelley <superjoe30@gmail.com>",
+  "author": "Nour Al-Habash <nour35000@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "mocha": "^7.0.1",
@@ -26,10 +26,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/andrewrk/node-fd-slicer.git"
+    "url": "git://github.com/nalhabash/node-fd-slicer.git"
   },
   "bugs": {
-    "url": "https://github.com/andrewrk/node-fd-slicer/issues"
+    "url": "https://github.com/nalhabash/node-fd-slicer/issues"
   },
   "keywords": [
     "createReadStream",
