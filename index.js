@@ -106,7 +106,12 @@ ReadStream.prototype._read = function(n) {
   }
   self.context.pend.go(function(cb) {
     if (self.destroyed) return cb();
-    var buffer = new Buffer(toRead);
+    var isModern = (
+      typeof Buffer.alloc === 'function' &&
+      typeof Buffer.allocUnsafe === 'function' &&
+      typeof Buffer.from === 'function'
+    )
+    var buffer = isModern ? Buffer.alloc(toRead) : new Buffer(toRead);
     fs.read(self.context.fd, buffer, 0, toRead, self.pos, function(err, bytesRead) {
       if (err) {
         self.destroy(err);
