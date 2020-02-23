@@ -26,10 +26,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/nalhabash/node-fd-slicer.git"
+    "url": "git://github.com/nalhabash/fd-slicer2.git"
   },
   "bugs": {
-    "url": "https://github.com/nalhabash/node-fd-slicer/issues"
+    "url": "https://github.com/nalhabash/fd-slicer2/issues"
   },
   "keywords": [
     "createReadStream",

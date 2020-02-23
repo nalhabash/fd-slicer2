@@ -1,6 +1,8 @@
-# fd-slicer
+# fd-slicer2
 
 [![Build Status](https://travis-ci.com/nalhabash/node-fd-slicer.svg?branch=master)](https://travis-ci.com/nalhabash/node-fd-slicer)
+
+### *This is a fork of the original fd-slicer package, without the DEP0005 deprecation error*
 
 Safe `fs.ReadStream` and `fs.WriteStream` using the same fd.
 

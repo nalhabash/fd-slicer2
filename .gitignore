@@ -3,3 +3,4 @@
 /.nyc_output
 package-lock.json
 yarn.lock
+npm-debug.log
