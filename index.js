@@ -1,7 +1,9 @@
-const fs = require('fs');
-const { Readable, Writable, PassThrough } = require('stream');
-const Pend = require('pend');
-const { EventEmitter } = require('events');
+var fs = require('fs');
+var Readable = require("stream").Readable;
+var PassThrough = require("stream").PassThrough;
+var Writable = require("stream").Writable;
+var Pend = require('pend');
+var EventEmitter = require('events').EventEmitter;
 
 class FdSlicer extends EventEmitter {
   constructor(fd, options = {}) {
