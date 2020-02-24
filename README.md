@@ -1,6 +1,6 @@
 # fd-slicer2
 
-[![Build Status](https://travis-ci.com/nalhabash/node-fd-slicer.svg?branch=master)](https://travis-ci.com/nalhabash/node-fd-slicer)
+[![Build Status](https://travis-ci.com/nalhabash/fd-slicer2.svg?branch=master)](https://travis-ci.com/nalhabash/fd-slicer2)
 [![node](https://img.shields.io/node/v/fd-slicer2.svg)](https://github.com/nalhabash/fd-slicer2)
 
 ### *This is a fork of the original fd-slicer package, without the DEP0005 deprecation error*
